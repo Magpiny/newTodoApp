@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <link rel="shortcut icon" href="./todos" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="./todo.css">
+    
+</head>
+<body>
+
+        <header> 
+            <p>Get organized with Magpiny's TodoList App </p>
+            <span class="h2">
+
+               <p>Welcome user</p>
+               <p class="user-dp">
+                   <img src="./user.png" alt="user-dp" >
+               </p>
+            <span/>
+            
+        </header>
+
+        <main>
+            <div class="description">
+                <h1>Time to add some tasks now</h1>
+                <hr>
+                <img src="./newTodo.svg" alt="add-tasks" class="description-image">
+
+                <p class="desc-paragraph">
+                    View 
+                    <big>
+                        <i>
+                            <a href="./view-todos.html">Tasks</a>
+                        </i>
+                    </big> instead
+
+                </p>
+            </div>
+
+        <!--Add some tasks-->
+        
+            <div class="form">
+                <form action="" style="margin-top: 15vh;">
+                
+                    <div class="form-fields">
+                        <label for="task-type" aria-label="Enter task type">Type: </label>
+                        <input type="text" name="task-type" id="task-type" required>
+
+                    </div>
+
+                    <div class="form-fields">
+                        <label for="task" aria-label="Enter Task">Task: </label>
+                        <input type="text" name="task" id="task" required>
+                        
+                    </div>  
+                
+                    <div class="form-fields">
+                        <label for="deadline" aria-label="Enter task due date">Due date: </label>
+                        <input type="datetime-local" name="deadline" id="deadline" required>
+                    </div>
+
+                    <button type="submit" class="Add-Task-Button">Add</button>
+
+                  
+                </form>
+            
+            </div>            
+
+        </main>
+        
+
+
+
+        <footer>
+            &COPY;<big>2022</big> by Magpiny&TRADE;
+        </footer>
+
+
+<script src="./localforage.min.js" defer></script>
+<script src="./dexie.js" defer></script>
+<script src="./todo.js" defer></script>
+</body>
+</html>

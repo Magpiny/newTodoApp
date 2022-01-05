@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>View Tasks</title>
+    <link rel="shortcut icon" href="./todos" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="./todo.css">
+    <link rel="stylesheet" type="text/css" href="./view-todos.css">
+</head>
+<body>
+<header class="view-header"> 
+    <big>My Tasks</big>
+    <big class="h2">
+        <a href="./index.html">Add more tasks |</a>
+        <a href="./login.html">Logout</a>
+    </big>
+</header>
+
+<div class="view-container">
+
+    <div class="task">
+        <p class="task-title">School</p>
+        <p class="task-description">
+            Complete my Maths and Physics and
+            Physics assignments
+        </p>
+        <p>Due date: 13/03/2022 11:56pm </p>
+        <hr>
+        <p class="mark-edit-delete-buttons">
+            <button class="mark-complete-button" title="Already completed this task?">
+                <p>Mark as complete</p><input type="checkbox" name="task-complete" id="task-complete">
+            </button>
+    
+            <button class="editButton" title="Edit task?">Edit</button>
+            <button class="deleteButton" title="Delete task?">Delete</button>
+        </p>
+    </div>
+
+    <div class="task">
+        <p class="task-title">Management and IT</p>
+        <p class="task-description">
+            Finish my computer studies assignments Queries, 
+            Reports and create relationships in Ms Access
+        </p>
+         <p>Due date: 13/02/2022 11:56pm </p>
+        <hr>
+        <p class="mark-edit-delete-buttons">
+            <button class="mark-complete-button">
+                Mark as complete<input type="checkbox" name="task-complete" id="task-complete">
+            </button>
+    
+            <button class="editButton">Edit</button>
+            <button class="deleteButton">Delete</button>
+        </p>
+    </div>
+
+    <div class="task">
+        <p class="task-title">Management</p>
+        <p class="task-description">
+            Lead Chemistry group discussion
+
+        </p>
+        <p>Due date: 13/01/2022 11:56pm </p>
+        <hr>
+        <p class="mark-edit-delete-buttons">
+            <button class="mark-complete-button">
+                Mark as complete<input type="checkbox" name="task-complete" id="task-complete">
+            </button>
+    
+            <button class="editButton">Edit</button>
+            <button class="deleteButton">Delete</button>
+        </p>
+    </div>
+
+    <div class="task">
+        <p class="task-title">Sports</p>
+        <p class="task-description">Attend Yoga class</p>
+         <p>Due date: 11/02/2022 11:56pm </p>
+        <hr>
+        <p class="mark-edit-delete-buttons">
+            <button class="mark-complete-button">
+                Mark as complete<input type="checkbox" name="task-complete" id="task-complete">
+            </button>
+    
+            <button class="editButton">Edit</button>
+            <button class="deleteButton">Delete</button>
+        </p>
+    </div>
+
+    <div class="task">
+        <p class="task-title">Management</p>
+        <p class="task-description">Going to work
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Odio quaerat officia cupiditate maxime, laboriosam unde 
+            dignissimos nemo velit, dolores laborum debitis magni.
+             Cumque quod est voluptatum soluta aliquam similique modi.
+        </p>
+         <p>Due date: 13/03/2022 11:56pm </p>
+        <hr>
+        <p class="mark-edit-delete-buttons">
+            <button class="mark-complete-button">
+                Mark as complete<input type="checkbox" name="task-complete" id="task-complete">
+            </button>
+    
+            <button class="editButton">Edit</button>
+            <button class="deleteButton">Delete</button>
+        </p>
+    </div>
+
+     <div class="task">
+        <p class="task-title">Management</p>
+        <p class="task-description">Going to work
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Odio quaerat officia cupiditate maxime, laboriosam unde 
+            dignissimos nemo velit, dolores laborum debitis magni.
+             Cumque quod est voluptatum soluta aliquam similique modi.
+        </p>
+         <p>Due date: 13/03/2022 11:56pm </p>
+        <hr>
+        <p class="mark-edit-delete-buttons">
+            <button class="mark-complete-button">
+                Mark as complete<input type="checkbox" name="task-complete" id="task-complete">
+            </button>
+    
+            <button class="editButton">Edit</button>
+            <button class="deleteButton">Delete</button>
+        </p>
+    </div>
+
+     <div class="task">
+        <p class="task-title">Management</p>
+        <p class="task-description">Going to work
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Odio quaerat officia cupiditate maxime, laboriosam unde 
+            dignissimos nemo velit, dolores laborum debitis magni.
+             Cumque quod est voluptatum soluta aliquam similique modi.
+        </p>
+         <p>Due date: 13/03/2022 11:56pm </p>
+        <hr>
+        <p class="mark-edit-delete-buttons">
+            <button class="mark-complete-button">
+                Mark as complete <input type="checkbox" name="task-complete" id="task-complete">
+            </button>
+    
+            <button class="editButton">Edit</button>
+            <button class="deleteButton">Delete</button>
+        </p>
+    </div>
+    
+</div>
+
+ 
+<footer>
+    &COPY;<span>2022</span> by Magpiny&TRADE;
+</footer>    
+<script src="./localforage.min.js" defer></script>
+<script src="./dexie.js" defer></script>
+<script src="./view-todos.js" defer></script>
+</body>
+</html>

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup</title>
+    <link rel="stylesheet" type="text/css" href="./todo.css">
+    <link rel="shortcut icon" href="./todos" type="image/x-icon">
+</head>
+<body>
+
+        <header> 
+            <p>Get organized with Magpiny's TodoList App </p>
+            
+        </header>
+
+        <main>
+            <div class="description">
+                <img src="./todos" alt="" srcset="" class="description-image">
+
+                <p class="desc-paragraph">
+                    Hello there...
+                    Welcome to Magpiny's TodoApp. I hope that
+                    you'll enjoy using it as much as i did enjoy creating it.
+
+                </p>
+            </div>
+
+            <div class="form">
+                    <center>
+                        <img src="./user.png" alt="user-dp" >
+                    </center>
+                    
+                <!-- signup form -->
+                <form action="">
+                    <div class="form-fields">
+                        <label for="username">Username</label>
+                        <input type="text" name="username" id="username" requred>
+                    </div>
+
+                    <div class="form-fields">
+                            <label for="email">Email</label>
+                            <input type="email" name="email" id="email" required>
+                    </div>
+
+                        <div class="form-fields">
+                            <label for="password">Password</label>
+                            <input type="password" name="password" id="password" required>
+                        </div>
+
+                    <div class="form-fields">
+                            <label for="confirm-password">Confirm Password </label>
+                            <input type="password" name="confirm-password" id="confirm-password" required>
+                    </div>
+
+                    <div class="form-fields">
+                        <label for="avatar">Display picture</label>
+                        <input type="file" id="avatar" name="avatar" accept="image/png, image/jpeg">
+                    
+                    </div>
+
+                    <div class="form-fields">
+                        <label for="submit">Register</label>
+                        <input type="submit" value="Register">
+                    </div>
+
+                    <div class="form-fields">
+                        <p>
+                            Already Registered? <a href="./login.html">Login</a>
+                        </p>
+                
+                    </div>
+                </form>
+            </div>            
+
+        </main>
+        
+
+
+
+        <footer>
+            &COPY;<big>2022</big> by Magpiny&TRADE;
+        </footer>
+
+
+<script src="./localforage.min.js" defer></script>
+<script src="./dexie.js" defer></script>
+<script src="./todo.js" defer></script>
+</body>
+</html>
